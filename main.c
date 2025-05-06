@@ -1,5 +1,6 @@
 #include<stdio.h>
-
+//add 5 and 2
+//convert 255 decimal to binary
 int main()
 {
     printf("Calculator program\n");
