@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int result,option;
+int result,option,count = 0;
 int a = 6,b =2;
 char res[20];
 char add[20] = "add";
@@ -23,7 +23,13 @@ int main()
             break;
         }
         res[i] = arr[i];
+        count ++;
     }
+    a = arr[count + 1];
+    b = arr[count + 5];
+
+    printf("\n%d\n",a -'0');
+    printf("\n%d\n",b -'0');
 
     printf("%s\n",res);
      if(strcmp(add,res)==0)
